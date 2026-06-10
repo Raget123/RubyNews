@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  color: white;
+}
+
+body {
+  background-color: #e91500;
+}
+
+.header {
+  background-color: #910d00;
+  padding: 12px;
+  border-bottom: 4px solid #ff5f1a;
+}
+
+.prof-title {
+  display: flex;
+  border-bottom: 2.4px solid #fff3f3c0;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+
+.prof-title .profile {
+  border: 1.2px solid coral;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  box-shadow: -1.8px -1.8px 6px 2px #fff5db;
+  object-fit: cover;
+}
+
+.prof-title .title  {
+  margin: auto;
+  background-color: #ff8b8b;
+  padding: 3px 6.5px;
+  border-radius: 0 15% 0 15%;
+}
+
+.title h1 {
+  font-family: Courier;
+  font-size: 2.6em;
+  text-decoration: underline;
+}
+
+.intro p {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.news-title {
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
+
+.news-title h2 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+.paragraph-1 , .paragraph-2 , .paragraph-3{
+  display: block;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.date {
+  margin-left: 28px;
+  text-decoration: underline;
+}
+article {
+  text-indent: 16px;
+  font-family: Georgia;
+  word-spacing: 3px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 18px;
+}
+
+.chatgpt {
+  display: block;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 18px;
+}
+
+.anthropic {
+  display: block;
+  object-fit: cover;
+  height: 220px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 18px;
+}
+
+.say p {
+  font-style: italic;
+  word-spacing: 1px;
+}
+
+footer {
+  background-color: #910d00;
+  padding: 15px;
+  border-top: 1.2px solid coral;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer span {
+  display: block;
+}
